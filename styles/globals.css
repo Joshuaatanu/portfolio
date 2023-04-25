@@ -2,13 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-
-.hero-img{
+/* .hero-img {
   background-image: url("../public/hero-bg.png");
   background-size: cover;
-}
+} */
 .container-snap::-webkit-scrollbar {
   display: none;
 }
