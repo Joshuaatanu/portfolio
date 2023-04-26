@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 const date = new Date().getFullYear();
 
@@ -11,11 +12,17 @@ export const Footer = () => {
         </p>
 
         <div className=" ml-auto flex flex-row  space-x-16 pb-3">
-          <img src="/github.svg" alt="" />
-          <img src="/twitter.png" alt="" />
-          <img src="/instagram.svg" alt="" />
-          <img src="/reddit.png" alt="" />
-          <img src="/liinkedin.svg" className="" alt="" />
+          <img src="/github.svg" height="26px" width="28px" alt="" />
+          <img src="/twitter.svg" height="31px" width="30.14px" alt="" />
+          <img src="/instagram.svg" height="26px" width="30.14px" alt="" />
+          <img src="/reddit.svg" height="29px" width="30px" alt="" />
+          <img
+            src="/liinkedin.svg"
+            height="26px"
+            width="30.14px"
+            className=""
+            alt=""
+          />
         </div>
       </div>
     </footer>

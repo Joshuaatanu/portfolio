@@ -28,7 +28,7 @@ export default function Home() {
           <hr className="p-6 mt-10" />
           <button className="bg-black text-white rounded-full font-medium text-poppins flex px-5 py-2 ">
             LET’S START A PROJECT{" "}
-            <img src="ARROW-white.svg" className="h-6 ml-5   w-5" />
+            <img src="ARROW-white.svg" alt="" className="h-6 ml-5   w-5" />
           </button>
         </div>
         <section className="pt-20 bg-white px-16 mb-[75px] ">
@@ -36,7 +36,7 @@ export default function Home() {
             {" "}
             I'm Joshua ...{" "}
           </h1>
-          <p className="text-[42px] text-poppins font-light">
+          <p className="text-[40px] text-poppins font-light">
             a web & mobile developer. Browse through my <br /> selected projects
             and watch code being brought to <br /> life, one project at a time.
           </p>
@@ -58,7 +58,7 @@ export default function Home() {
             {" "}
             let’s collaborate{" "}
           </h1>
-          <p className="text-[48px] text-poppins font-light">
+          <p className="text-[40px] text-poppins font-light">
             I'd love to hear about your web project and <br /> chat about how we
             can collaborate to bring your ideas to <br /> life. Feel free to
             reach out to me anytime and let's start <br /> the conversation!
