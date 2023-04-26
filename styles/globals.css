@@ -15,3 +15,37 @@
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
+
+@font-face {
+  font-family: "poppins";
+  src: url("../public//fonts/Poppins/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: "playfair";
+  src: url("../public//fonts/playfair/PlayfairDisplay-Regular.ttf");
+}
+@font-face {
+  font-family: playfair-italic;
+  src: url("../public/fonts/playfair/PlayfairDisplay-Italic.ttf");
+}
+
+.text-poppins {
+  font-family: poppins;
+}
+
+.text-playfair{
+  font-family: playfair;
+}
+.text-playfair-italic{
+  font-family: playfair-italic;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
