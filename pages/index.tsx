@@ -48,7 +48,9 @@ export default function Home() {
             <div className=" w-[502px] h-[550px] bg-black rounded-3xl "></div>
           </section>
           <section className="flex mt-5 flex-row justify-center items-center space-x-3 px-16">
-            <div className="w-[764px] h-[550px] bg-zinc-500 rounded-3xl"></div>
+            <div className="w-[764px] h-[550px]  rounded-3xl">
+              <img src="/netflix-clone.png" className="rounded-3xl" alt="" />
+            </div>
             <div className="w-[764px] h-[550px] bg-zinc-500 rounded-3xl"></div>
           </section>
         </div>

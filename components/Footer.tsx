@@ -12,8 +12,13 @@ export const Footer = () => {
         </p>
 
         <div className=" ml-auto flex flex-row  space-x-16 pb-3">
-          <img src="/github.svg" height="26px" width="28px" alt="" />
-          <img src="/twitter.svg" height="31px" width="30.14px" alt="" />
+          <a href="https://github.com/Joshuaatanu">
+            <img src="/github.svg" height="26px" width="28px" alt="" />
+          </a>
+          <a href="https://twitter.com/joshua_atanu">
+            <img src="/twitter.svg" height="31px" width="30.14px" alt="" />
+          </a>
+
           <img src="/instagram.svg" height="26px" width="30.14px" alt="" />
           <img src="/reddit.svg" height="29px" width="30px" alt="" />
           <img

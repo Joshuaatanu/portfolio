@@ -10,7 +10,10 @@ const title: string = "about";
 export default function about() {
   return (
     <div>
-      <Meta />
+      <Head>
+        <Meta />
+      </Head>
+
       <section>
         <div className='h-[1020px]   w-full bg-[url("/hero-bg.png")] bg-cover bg-no-repeat bg-center '>
           <div className="    ">
@@ -50,16 +53,59 @@ export default function about() {
                 {" "}
                 How can i help you?
               </h1>
-              <div className="flex flex-row space-x-10 mt-10 ml-[200px]">
-                <div className="w-[372px] h-[243px] bg-zinc-600">
+              <div className="flex flex-row space-x-56 mt-10 ">
+                <div className="w-[372px] h-[243px] ">
                   <p className="text-poppins font-light italic text-[24px]">
                     01
                   </p>
                   <hr className="mt-3 " />
-                  <h3 className="text-playfair-italic text-[32px]">Web development</h3>
+                  <h3 className="text-playfair-italic text-[32px]">
+                    Web development
+                  </h3>
+                  <p className="text-poppins font-light  text-[16px]">
+                    I develop custom websites and web <br /> applications from
+                    scratch using a variety of <br /> programming languages and
+                    frameworks. <br />
+                    From landing pages to complex web <br /> applications, I can
+                    help you create a web <br /> presence that is tailored to
+                    your needs and <br />
+                    goals.
+                  </p>
                 </div>
-                <div className="w-[372px] h-[243px] bg-zinc-600"></div>
-                <div className="w-[372px] h-[243px] bg-zinc-600"></div>
+
+                <div className="w-[372px] h-[243px] ">
+                  <p className="text-poppins font-light italic text-[24px]">
+                    02
+                  </p>
+                  <hr className="mt-3 " />
+                  <h3 className="text-playfair-italic text-[32px]">
+                    Web Design
+                  </h3>
+                  <p className="text-poppins font-light  text-[16px]">
+                    I also offer web design services, which include <br />{" "}
+                    creating custom designs that are visually <br /> appealing,
+                    user-friendly, and optimized for <br /> conversion. Whatever
+                    you may need, I can <br />
+                    help you create a design that aligns with your <br /> brand
+                    and achieves your goals.
+                  </p>
+                </div>
+
+                <div className="w-[372px] h-[243px] ">
+                  <p className="text-poppins font-light italic text-[24px]">
+                    03
+                  </p>
+                  <hr className="mt-3 " />
+                  <h3 className="text-playfair-italic text-[32px]">
+                    Mobile Development
+                  </h3>
+                  <p className="text-poppins font-light  text-[16px]">
+                    In addition to web development, I also offer <br /> mobile
+                    development services. I can help you <br /> develop mobile
+                    applications that are <br /> compatible with both iOS and Android
+                    platforms.
+                  </p>
+                </div>
               </div>
             </section>
 

@@ -14,16 +14,16 @@ export default function Navbar() {
           </a>
           <div className="flex-row ml-[20%] gap-7 space-x-28 border-0">
             <Link href="about"   className=" text-zinc-600 hover:text-gray-300  text-poppins  transition"> ABOUT ME</Link>
-            <Link href="#"  className=" text-zinc-600 hover:text-gray-300 text-poppins transition">MY WORKS</Link>
+            <Link href="work"  className=" text-zinc-600 hover:text-gray-300 text-poppins transition">MY WORKS</Link>
             <Link href="#"  className=" text-zinc-600 hover:text-gray-300 text-poppins transition">CONTACT ME</Link>
           </div>
-          {/* <img
+          <img
             src="toggle-lite.svg"
             height="26.5px"
             width="52.5px"
             alt=""
             className="ml-[13%]"
-          /> */}
+          />
         </div>
       </nav>
     </div>
