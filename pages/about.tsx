@@ -10,7 +10,7 @@ const title: string = "about";
 export default function about() {
   return (
     <div>
-      <Meta/>
+      <Meta />
       <section>
         <div className='h-[1020px]   w-full bg-[url("/hero-bg.png")] bg-cover bg-no-repeat bg-center '>
           <div className="    ">
@@ -45,6 +45,23 @@ export default function about() {
                 started on your next web project!
               </p>
             </section>
+            <section className="pt-20 bg-white px-16 mb-[75px] ">
+              <h1 className="text-[96px] text-gray-950 text-playfair-italic font-bold">
+                {" "}
+                How can i help you?
+              </h1>
+              <div className="flex flex-row space-x-10 mt-10 ml-[200px]">
+                <div className="w-[372px] h-[243px] bg-zinc-600">
+                  <p className="text-poppins font-light italic text-[24px]">
+                    01
+                  </p>
+                  <hr className="mt-3 " />
+                  <h3 className="text-playfair-italic text-[32px]">Web development</h3>
+                </div>
+                <div className="w-[372px] h-[243px] bg-zinc-600"></div>
+                <div className="w-[372px] h-[243px] bg-zinc-600"></div>
+              </div>
+            </section>
 
             <section className="pt-20 bg-white px-16 ">
               <h1 className="text-[96px] text-gray-950 text-playfair-italic font-bold">
@@ -59,7 +76,7 @@ export default function about() {
               </p>
               <button className="bg-black text-white rounded-full font-medium text-poppins flex px-5 py-2 ">
                 CONTACT ME{" "}
-                <img src="ARROW-white.svg"alt="" className="h-6 ml-5   w-5" />
+                <img src="ARROW-white.svg" alt="" className="h-6 ml-5   w-5" />
               </button>
             </section>
             <Footer />
