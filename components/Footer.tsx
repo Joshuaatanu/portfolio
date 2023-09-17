@@ -21,13 +21,15 @@ export const Footer = () => {
 
           <img src="/instagram.svg" height="26px" width="30.14px" alt="" />
           <img src="/reddit.svg" height="29px" width="30px" alt="" />
-          <img
-            src="/liinkedin.svg"
-            height="26px"
-            width="30.14px"
-            className=""
-            alt=""
-          />
+          <a href="https://www.linkedin.com/in/joshua-atanu">
+            <img
+              src="/liinkedin.svg"
+              height="26px"
+              width="30.14px"
+              className=""
+              alt=""
+            />
+          </a>
         </div>
       </div>
     </footer>

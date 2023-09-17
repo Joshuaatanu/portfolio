@@ -7,8 +7,8 @@ import React from "react";
 export default function Navbar() {
   return (
     <div className="">
-      <nav className=" z-40 w-full pt-6">
-        <div className="px-3 md:px-16 py-3 rounded-full w-[1026px]  flex flex-row items-center h-fit bg-opacity-50 pt-4 mx-[20%] bg-slate-100  duration-500">
+      <nav className=" z-40 w-full  items-center justify-center flex pt-6">
+        <div className="px-3 md:px-16 py-3 rounded-full lg:w-[1026px]  flex flex-row h-fit bg-opacity-50 pt-4  bg-slate-100  duration-500">
           <a href="/">
             <img src="Ja.svg" className="" height="36px" width="37px" alt="logo" />
           </a>

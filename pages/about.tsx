@@ -15,7 +15,7 @@ export default function about() {
       </Head>
 
       <section>
-        <div className='h-[1020px]   w-full bg-[url("/hero-bg.png")] bg-cover bg-no-repeat bg-center '>
+        <div className='h-[1020px]   w-full bg-[url("https://images.unsplash.com/photo-1694845482698-accfce9310f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2564&q=80")] bg-cover bg-no-repeat bg-center '>
           <div className="    ">
             <Navbar />
 
@@ -29,10 +29,13 @@ export default function about() {
               </h3>
 
               <hr className="p-6 mt-10" />
-              <button className="bg-black text-white rounded-full font-medium text-poppins flex px-5 py-2 ">
+              <a href="#">
+                <button className="bg-black text-white rounded-full font-medium text-poppins flex px-5 py-2 ">
                 LET’S START A PROJECT{" "}
                 <img src="ARROW-white.svg" alt="" className="h-6 ml-5   w-5" />
               </button>
+              </a>
+              
             </div>
             <section className="pt-20 bg-white px-16 mb-[75px] ">
               <h1 className="text-[96px] text-gray-950 text-playfair-italic font-bold">
