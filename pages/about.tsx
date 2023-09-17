@@ -15,12 +15,12 @@ export default function about() {
       </Head>
 
       <section>
-        <div className='h-[1020px]   w-full bg-[url("https://images.unsplash.com/photo-1694845482698-accfce9310f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2564&q=80")] bg-cover bg-no-repeat bg-center '>
+        <div className='lg:h-150px h-[700px]  lg:w-full bg-[url("https://images.unsplash.com/photo-1694845482698-accfce9310f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2564&q=80")] bg-cover bg-no-repeat bg-center '>
           <div className="    ">
             <Navbar />
 
-            <div className="px-16 mb-[100px]">
-              <h3 className="text-white text-[100px] text-playfair">
+            <div className="lg:px-16 px-8 mb-[100px]">
+              <h3 className="text-white lg:text-[100px] text-[50px] text-playfair">
                 Passionate about <br />
                 creating &nbsp;
                 <span className="text-playfair-italic font-semibold ">
@@ -37,12 +37,12 @@ export default function about() {
               </a>
               
             </div>
-            <section className="pt-20 bg-white px-16 mb-[75px] ">
-              <h1 className="text-[96px] text-gray-950 text-playfair-italic font-bold">
+            <section className="pt-20 bg-white lg:px-16 px-8 mb-[75px] ">
+              <h1 className="lg:text-[96px] text-[48px] text-gray-950 text-playfair-italic font-bold">
                 {" "}
                 Who am I?{" "}
               </h1>
-              <p className="text-[32px] text-poppins  ml-3 font-light">
+              <p className="lg:text-[32px] text-[16px] text-poppins  ml-3 font-light">
                 I’m Joshua Atanu, a web developer who is passionate about
                 creating amazing <br /> digital experiences. I specialize in
                 developing custom websites that are both <br /> functional and
@@ -51,12 +51,12 @@ export default function about() {
                 started on your next web project!
               </p>
             </section>
-            <section className="pt-20 bg-white px-16 mb-[75px] ">
-              <h1 className="text-[96px] text-gray-950 text-playfair-italic font-bold">
+            <section className="lg:pt-20 bg-white lg:px-16 px-8  lg:mb-[75px] ">
+              <h1 className="lg:text-[96px] text-[48px] text-gray-950 text-playfair-italic font-bold">
                 {" "}
                 How can i help you?
               </h1>
-              <div className="flex flex-row space-x-56 mt-10 ">
+              <div className="flex lg:flex-row flex-col items-center lg:space-x-56 space-y-10 mt-10 ">
                 <div className="w-[372px] h-[243px] ">
                   <p className="text-poppins font-light italic text-[24px]">
                     01
@@ -113,11 +113,11 @@ export default function about() {
             </section>
 
             <section className="pt-20 bg-white px-16 ">
-              <h1 className="text-[96px] text-gray-950 text-playfair-italic font-bold">
+              <h1 className=" text-[48px] lg:text-[96px] text-gray-950 text-playfair-italic font-bold">
                 {" "}
                 let’s collaborate{" "}
               </h1>
-              <p className="text-[32px] text-poppins font-light">
+              <p className="text-[16px] lg:text-[32px] text-poppins font-light">
                 I'd love to hear about your web project and <br /> chat about
                 how we can collaborate to bring your ideas to <br /> life. Feel
                 free to reach out to me anytime and let's start <br /> the
